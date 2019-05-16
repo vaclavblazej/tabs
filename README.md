@@ -41,6 +41,17 @@ o 	on rhythm slash represents single note slash
 ·/. 	pick slide
 ```
 
+## Guitar theory
+
+C dur
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
+e|*--*-----*-----*-----*--*-----*-----*--*-------|
+B|*--*-----*-----*--*-----*-----*-----*--*-----*-|
+G|*-----*-----*--*-----*-----*--*-----*-----*----|
+D|*-----*--*-----*-----*-----*--*-----*-----*--*-|
+A|*-----*--*-----*-----*--*-----*-----*-----*--*-|
+E|*--*-----*-----*-----*--*-----*-----*--*-------|
+
 ## Todos
 
 List of songs which are to be added.
@@ -49,4 +60,5 @@ List of songs which are to be added.
 * SOAD - Aerials
 * RHCP - Snow
 * Nirvana - Smells like Teen Spirit
+* Oasis - Wonderwall
 
