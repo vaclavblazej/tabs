@@ -76,6 +76,7 @@ List of songs which are to be added.
 * Karel Zich - Přiznávám
 * Karel Zich - Vejdi
 * Katyusha
+* Lilly Wood & The Prick - Prayer in C 
 * Marta Kubišová - Modlitba
 * Miki Ryvola - Bedna vod whisky
 * Nirvana - Smells like Teen Spirit
@@ -89,4 +90,5 @@ List of songs which are to be added.
 * The Beatles - Here Comes the Sun
 * The Beatles - Yesterday
 * Waldemar Matuška - Jó, třešně zrály
+
 
