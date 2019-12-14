@@ -68,9 +68,7 @@ List of songs which are to be added.
 * Janek Ledecký - Proklínám
 * Jaromír Mayer - Malý přítel z města N
 * Kabát - Kdoví jestli
-* Kabát - Šaman
 * Karel Gott - Když milenky pláčou
-* Karel Plíhal - Ráda se miluje
 * Karel Zich - Alenka v říši divů
 * Karel Zich - Máš chuť majoránky
 * Karel Zich - Přiznávám
