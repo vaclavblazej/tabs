@@ -79,7 +79,6 @@ List of songs which are to be added.
 * Miki Ryvola - Bedna vod whisky
 * Nirvana - Smells like Teen Spirit
 * Nirvana - The Man Who Sold The World (MTV Unplugged)
-* Oasis - Wonderwall
 * One Jump
 * Paper Lace - The Night Chicago Died
 * RHCP - Snow
