@@ -57,6 +57,7 @@ E|*--*-----*-----*-----*--*-----*-----*--*-------|
 List of songs which are to be added.
 
 * Ach synku, synku
+* Baba O'Riley - Teenage Wasteland
 * Bláznova ukolébavka
 * Chinaski - Vrchlabí
 * Dajána
@@ -73,13 +74,16 @@ List of songs which are to be added.
 * Karel Zich - Máš chuť majoránky
 * Karel Zich - Přiznávám
 * Karel Zich - Vejdi
+* Katapult - Hlupák váhá
 * Katyusha
 * Lilly Wood & The Prick - Prayer in C 
 * Marta Kubišová - Modlitba
+* Michal Tučný - Blízko Little Big Hornu
 * Miki Ryvola - Bedna vod whisky
 * Nirvana - Smells like Teen Spirit
 * Nirvana - The Man Who Sold The World (MTV Unplugged)
 * One Jump
+* Olympic - Dej mi víc své lásky
 * Paper Lace - The Night Chicago Died
 * RHCP - Snow
 * SOAD - Aerials
