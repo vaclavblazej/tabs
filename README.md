@@ -52,6 +52,16 @@ D|*-----*--*-----*-----*-----*--*-----*-----*--*-|
 A|*-----*--*-----*-----*--*-----*-----*-----*--*-|
 E|*--*-----*-----*-----*--*-----*-----*--*-------|
 
+* dur - prima, tercie, kvinta
+* mol - tercie-1
+* sus2 - tercie-2
+* sus4 - tercie+1
+* aug - kvinta+1
+* dim - tercie-1, kvinta-1
+* 7 - ++septima
+* 7maj - ++septima+1
+https://www.pianochord.org/
+
 ## Todos
 
 List of songs which are to be added.
