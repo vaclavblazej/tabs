@@ -52,11 +52,22 @@ D|*-----*--*-----*-----*-----*--*-----*-----*--*-|
 A|*-----*--*-----*-----*--*-----*-----*-----*--*-|
 E|*--*-----*-----*-----*--*-----*-----*--*-------|
 
+* dur - prima, tercie, kvinta
+* mol - tercie-1
+* sus2 - tercie-2
+* sus4 - tercie+1
+* aug - kvinta+1
+* dim - tercie-1, kvinta-1
+* 7 - ++septima
+* 7maj - ++septima+1
+https://www.pianochord.org/
+
 ## Todos
 
 List of songs which are to be added.
 
 * Ach synku, synku
+* Baba O'Riley - Teenage Wasteland
 * Bláznova ukolébavka
 * Chinaski - Vrchlabí
 * Dajána
@@ -68,21 +79,21 @@ List of songs which are to be added.
 * Janek Ledecký - Proklínám
 * Jaromír Mayer - Malý přítel z města N
 * Kabát - Kdoví jestli
-* Kabát - Šaman
 * Karel Gott - Když milenky pláčou
-* Karel Plíhal - Ráda se miluje
 * Karel Zich - Alenka v říši divů
 * Karel Zich - Máš chuť majoránky
 * Karel Zich - Přiznávám
 * Karel Zich - Vejdi
+* Katapult - Hlupák váhá
 * Katyusha
 * Lilly Wood & The Prick - Prayer in C 
 * Marta Kubišová - Modlitba
+* Michal Tučný - Blízko Little Big Hornu
 * Miki Ryvola - Bedna vod whisky
 * Nirvana - Smells like Teen Spirit
 * Nirvana - The Man Who Sold The World (MTV Unplugged)
-* Oasis - Wonderwall
 * One Jump
+* Olympic - Dej mi víc své lásky
 * Paper Lace - The Night Chicago Died
 * RHCP - Snow
 * SOAD - Aerials
