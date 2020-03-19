@@ -23,10 +23,14 @@ class Chord:
             res += [val]
         self.notes = set(res)
 
+    def contains(self, other):
+        return len(other-self.notes) == 0:
+
+
 def find(my_chord):
     print('search for',my_chord)
     for chord in chords:
-        if len(my_chord-chord.notes) == 0:
+        if chord.contains(my_chord):
             print(chord.name, chord.notes)
 
 
@@ -64,7 +68,7 @@ def main():
         chords += [Chord(name + ' aug',             i, [0,4,8])]
         chords += [Chord(name + ' aug7',            i, [0,4,8,10])]
     print('created list of',len(chords),'chords')
-    find(set([3,7,9]))
+    find(set([2,5,7]))
     return 0
 
 if __name__ == '__main__':

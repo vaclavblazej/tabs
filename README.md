@@ -76,7 +76,6 @@ List of songs which are to be added.
 * Eagles - Hotel California
 * Fool's Garden - Lemon Tree
 * Jakub Smolík - Zahrada ticha
-* Janek Ledecký - Proklínám
 * Jaromír Mayer - Malý přítel z města N
 * Kabát - Kdoví jestli
 * Karel Gott - Když milenky pláčou
@@ -101,5 +100,4 @@ List of songs which are to be added.
 * The Beatles - Here Comes the Sun
 * The Beatles - Yesterday
 * Waldemar Matuška - Jó, třešně zrály
-
 
