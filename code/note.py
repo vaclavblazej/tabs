@@ -8,7 +8,10 @@ NOTES = len(NOTE_NAMES)
 def from_names_to_notes(names):
     res = []
     for name in names:
-        res += [INVERSE_NOTES[name]]
+        if name in INVERSE_NOTES:
+            res += [INVERSE_NOTES[name]]
+        else:
+            print('note '+name+' was not found')
     return res
 
 class Chord:
@@ -31,20 +34,13 @@ class Chord:
         self.notes = set(res)
 
     def contains(self, other):
-        return len(other-self.notes) == 0
+        return len(other.notes-self.notes) == 0
 
     def strictly_contains(self, other):
-        return self.contains(other) and len(self.notes-other) != 0
+        return self.contains(other.notes) and len(self.notes-other.notes) != 0
 
-#   0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
-# e|*--*-----*-----*-----*--*-----*-----*--*-------|
-# B|*--*-----*-----*--*-----*-----*-----*--*-----*-|
-# G|*-----*-----*--*-----*-----*--*-----*-----*----|
-# D|*-----*--*-----*-----*-----*--*-----*-----*--*-|
-# A|*-----*--*-----*-----*--*-----*-----*-----*--*-|
-# E|*--*-----*-----*-----*--*-----*-----*--*-------|
 class Guitar:
-    def __init__(self, base=None, sz=15):
+    def __init__(self, base=None, sz=16):
         self.sz = sz
         if base==None:
             base = ['E','B','G','D','A','E']
@@ -68,8 +64,7 @@ class Guitar:
                 print(c,end='')
             print('-|')
 
-def find(my_chord):
-    print('search for',my_chord)
+def find(my_chord : Chord):
     tmp = []
     for chord in chords:
         if chord.contains(my_chord):
@@ -77,8 +72,20 @@ def find(my_chord):
     contained = len(tmp)*[True]
     for i in range(len(tmp)):
         for j in range(len(tmp)):
-            if i != j and tmp[i].strictly_contains(tmp[j].notes):
+            if i != j and tmp[i].strictly_contains(tmp[j]):
                 contained[i]=False
+    res = []
+    for i in range(len(tmp)):
+        if contained[i]:
+            res += [tmp[i]]
+    res.sort(key=(lambda i : i.score))
+    return res
+
+def contains(my_chord : Chord):
+    tmp = []
+    for chord in chords:
+        if my_chord.contains(chord):
+            tmp += [chord]
     res = []
     for i in range(len(tmp)):
         if contained[i]:
@@ -102,8 +109,11 @@ def main():
         chords += [Chord(name + ' blues minor',        i, 3, [0,2,5,7,9])]
         chords += [Chord(name + ' minor pentatonic',   i, 3, [0,3,5,7,10])]
 
+        chords += [Chord(name + ' wholetone scale', i, 3, [0,2,4,6,8,10])]
+
         chords += [Chord(name + ' scale',  i, 1, [0,2,4,5,7,9,11])]
         chords += [Chord(name + 'm scale', i, 2, [0,2,3,5,7,8,10])]
+
         chords += [Chord(name + '',        i, 1, [0,4,7])]
         chords += [Chord(name + 'm',       i, 2, [0,3,7])]
         chords += [Chord(name + '7',       i, 1, [0,4,7,10])]
@@ -132,12 +142,19 @@ def main():
         chords += [Chord(name + 'aug',     i, 4, [0,4,8])]
         chords += [Chord(name + 'aug7',    i, 5, [0,4,8,10])]
     print('created list of',len(chords),'chords')
-    set_chord = set(from_names_to_notes(['C','E','G','A',]))
-    res = find(set_chord)
+    # input_notes = input('space-separated notes of the chord: ').split(' ')
+    input_notes = ['C','D','E']
+    my_chord = Chord('my', 0, 0, from_names_to_notes(input_notes))
+    set_chord = set(from_names_to_notes(input_notes))
+    print('search for',my_chord.notes)
+    res = find(my_chord)
+    for chord in res:
+        print(chord.name, chord.notes)
+    res = contains(my_chord)
     for chord in res:
         print(chord.name, chord.notes)
     guitar = Guitar()
-    guitar.print_chord(set_chord)
+    guitar.print_chord(set_chord.notes)
     return 0
 
 if __name__ == '__main__':
