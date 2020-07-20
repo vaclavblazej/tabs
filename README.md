@@ -99,8 +99,8 @@ List of songs which are to be added.
 * RHCP - Snow
 * SOAD - Aerials
 * SOAD - Chop Suey
-* The Beatles - Here Comes the Sun
 * The Beatles - Yesterday
 * Waldemar Matuška - Jó, třešně zrály
 * https://www.youtube.com/watch?v=984m-So__WM
+* Black Dog tab by Led Zeppelin
 
