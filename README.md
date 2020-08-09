@@ -43,24 +43,35 @@ o 	on rhythm slash represents single note slash
 
 ## Guitar theory
 
-C dur
-  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
-e|*--*-----*-----*-----*--*-----*-----*--*-------|
-B|*--*-----*-----*--*-----*-----*-----*--*-----*-|
-G|*-----*-----*--*-----*-----*--*-----*-----*----|
-D|*-----*--*-----*-----*-----*--*-----*-----*--*-|
-A|*-----*--*-----*-----*--*-----*-----*-----*--*-|
-E|*--*-----*-----*-----*--*-----*-----*--*-------|
+* [Neck patterns](https://www.youtube.com/watch?v=uZg1p2GkUg0)
+* [Chord names](https://www.pianochord.org/)
 
-* dur - prima, tercie, kvinta
-* mol - tercie-1
+Given the 
+
+```
+A|-*m----*m-4M----5M---|
+E|-*m----*d-1M---------|
+```
+
+C maj
+```
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
+e|*--*-----5-----*-----*--1-----*-----*--4-----5-|
+B|*--1-----*-----*--4-----5-----*-----*--1-----*-|
+G|5-----*-----*--1-----*-----*--4-----5-----*----|
+D|*-----*--4-----5-----*-----*--1-----*-----*--4-|
+A|*-----*--1-----*-----*--4-----5-----*-----*--1-|
+E|*--*-----5-----*-----*--1-----*-----*--4-----5-|
+```
+
+* maj - prima, tercie, kvinta
+* min - tercie-1
 * sus2 - tercie-2
 * sus4 - tercie+1
 * aug - kvinta+1
 * dim - tercie-1, kvinta-1
 * 7 - ++septima
 * 7maj - ++septima+1
-https://www.pianochord.org/
 
 ## Todos
 
@@ -73,7 +84,6 @@ List of songs which are to be added.
 * Dajána
 * Divokej Bill - Čmelák
 * Divokej Bill - Malování
-* Eagles - Hotel California
 * Fool's Garden - Lemon Tree
 * Jakub Smolík - Zahrada ticha
 * Jaromír Mayer - Malý přítel z města N
@@ -84,7 +94,6 @@ List of songs which are to be added.
 * Karel Zich - Přiznávám
 * Karel Zich - Vejdi
 * Katapult - Hlupák váhá
-* Katyusha
 * Lilly Wood & The Prick - Prayer in C 
 * Marta Kubišová - Modlitba
 * Michal Tučný - Blízko Little Big Hornu
@@ -97,8 +106,6 @@ List of songs which are to be added.
 * RHCP - Snow
 * SOAD - Aerials
 * SOAD - Chop Suey
-* The Beatles - Here Comes the Sun
-* The Beatles - Yesterday
 * Waldemar Matuška - Jó, třešně zrály
 * https://www.youtube.com/watch?v=984m-So__WM
 
