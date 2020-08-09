@@ -46,11 +46,11 @@ o 	on rhythm slash represents single note slash
 * [Neck patterns](https://www.youtube.com/watch?v=uZg1p2GkUg0)
 * [Chord names](https://www.pianochord.org/)
 
-Given the 
+Given the main note of the major scale (1M) or of the minor scale (1m) the following pattern gives which chords are major, minor, or diminished.
 
 ```
-A|-*m----*m-4M----5M---|
-E|-*m----*d-1M---------|
+A|-*m----*m-*M----*M---|
+E|-1m----*d-1M---------|
 ```
 
 C maj
@@ -106,6 +106,8 @@ List of songs which are to be added.
 * RHCP - Snow
 * SOAD - Aerials
 * SOAD - Chop Suey
+* The Beatles - Yesterday
 * Waldemar Matuška - Jó, třešně zrály
 * https://www.youtube.com/watch?v=984m-So__WM
+* Black Dog tab by Led Zeppelin
 
