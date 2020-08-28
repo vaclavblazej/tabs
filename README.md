@@ -43,26 +43,35 @@ o 	on rhythm slash represents single note slash
 
 ## Guitar theory
 
+* [Neck patterns](https://www.youtube.com/watch?v=uZg1p2GkUg0)
+* [Chord names](https://www.pianochord.org/)
+
+Given the main note of the major scale (1M) or of the minor scale (1m) the following pattern gives which chords are major, minor, or diminished.
+
 ```
-C dur
-  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
-e|*--*-----*-----*-----*--*-----*-----*--*-------|
-B|*--*-----*-----*--*-----*-----*-----*--*-----*-|
-G|*-----*-----*--*-----*-----*--*-----*-----*----|
-D|*-----*--*-----*-----*-----*--*-----*-----*--*-|
-A|*-----*--*-----*-----*--*-----*-----*-----*--*-|
-E|*--*-----*-----*-----*--*-----*-----*--*-------|
+A|-*m----*m-*M----*M---|
+E|-1m----*d-1M---------|
 ```
 
-* dur - prima, tercie, kvinta
-* mol - tercie-1
+C maj
+```
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
+e|*--*-----5-----*-----*--1-----*-----*--4-----5-|
+B|*--1-----*-----*--4-----5-----*-----*--1-----*-|
+G|5-----*-----*--1-----*-----*--4-----5-----*----|
+D|*-----*--4-----5-----*-----*--1-----*-----*--4-|
+A|*-----*--1-----*-----*--4-----5-----*-----*--1-|
+E|*--*-----5-----*-----*--1-----*-----*--4-----5-|
+```
+
+* maj - prima, tercie, kvinta
+* min - tercie-1
 * sus2 - tercie-2
 * sus4 - tercie+1
 * aug - kvinta+1
 * dim - tercie-1, kvinta-1
 * 7 - ++septima
 * 7maj - ++septima+1
-https://www.pianochord.org/
 
 ## Todos
 
@@ -75,7 +84,6 @@ List of songs which are to be added.
 * Dajána
 * Divokej Bill - Čmelák
 * Divokej Bill - Malování
-* Eagles - Hotel California
 * Fool's Garden - Lemon Tree
 * Jakub Smolík - Zahrada ticha
 * Jaromír Mayer - Malý přítel z města N
