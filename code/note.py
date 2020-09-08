@@ -143,18 +143,18 @@ def main():
         chords += [Chord(name + 'aug7',    i, 5, [0,4,8,10])]
     print('created list of',len(chords),'chords')
     # input_notes = input('space-separated notes of the chord: ').split(' ')
-    input_notes = ['C','D','E']
+    input_notes = ['C','D','F','G#']
     my_chord = Chord('my', 0, 0, from_names_to_notes(input_notes))
-    set_chord = set(from_names_to_notes(input_notes))
-    print('search for',my_chord.notes)
-    res = find(my_chord)
-    for chord in res:
-        print(chord.name, chord.notes)
+    # set_chord = set(from_names_to_notes(input_notes))
+    # print('search for',my_chord.notes)
+    # res = find(my_chord)
+    # for chord in res:
+    #     print(chord.name, chord.notes)
     res = contains(my_chord)
     for chord in res:
         print(chord.name, chord.notes)
-    guitar = Guitar()
-    guitar.print_chord(set_chord.notes)
+    # guitar = Guitar()
+    # guitar.print_chord(set_chord.notes)
     return 0
 
 if __name__ == '__main__':
