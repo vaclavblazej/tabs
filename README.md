@@ -2,8 +2,8 @@ This reposiroty contains ASCII-tab as described
 by Wikipedia: https://en.wikipedia.org/wiki/ASCII_tab
 
 Tabs might be in the following states:
-* Complete tabs are in the *root* directory of the repository
-* Incomplete / Work in progres are in the *incomplete* directory
+* Tabs are in the respective language directory of the repository (english songs in *english* directory)
+* Incomplete tabs are in the *incomplete* directory
 * Complete melodies / solos (without rest of the song) are in the *melodies* directory
 
 
