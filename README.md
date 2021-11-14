@@ -1,3 +1,7 @@
+*I welcome issues and pull requests to add new songs -- please, put songs to incomplete if not finished; and cite the sources.*
+
+---
+
 This reposiroty contains ASCII-tab as described
 by Wikipedia: https://en.wikipedia.org/wiki/ASCII_tab
 
