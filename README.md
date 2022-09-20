@@ -114,3 +114,10 @@ List of songs which are to be added.
 * https://www.youtube.com/watch?v=984m-So__WM
 * Black Dog tab by Led Zeppelin
 
+
+## Running the site
+
+```
+source "https://rubygems.org"
+bundle exec jekyll serve
+```
