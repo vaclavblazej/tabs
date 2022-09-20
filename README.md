@@ -1,15 +1,41 @@
-*I welcome issues and pull requests to add new songs -- please, put songs to incomplete if not finished; and cite the sources.*
+This reposiroty contains raw [ASCII-tab](https://en.wikipedia.org/wiki/ASCII_tab).
+There is also a repository with [preprocessed data (html for offline use)](https://github.com/vaclavblazej/tabs-web) and its [online image](https://vaclavblazej.github.io/tabs-web/).
+
+*To report problems please open a [new issue](https://github.com/vaclavblazej/tabs/issues/new). I welcome pull requests with new songs (see requirement below).*
 
 ---
 
-This reposiroty contains ASCII-tab as described
-by Wikipedia: https://en.wikipedia.org/wiki/ASCII_tab
+## New songs
 
-Tabs might be in the following states:
+To add a new song or propose changes [create a fork](https://github.com/vaclavblazej/tabs/fork), edit your version, and then create a pull request.
+
+The required format is `.tab`.
+It is a free-form format, however, the tabs should conform to the following rules for conssitency.
+
+* start with properties in format: `<property>: <value>`
+    * `source` stands for the original source of the tab (even if it was changed later)
+    * `video` or `audio` serves as a reference (or play-along)
+    * `note` is extra information
+* properties are followed with two empty lines
+* remainder consist of the song and `[Fingerstyle]` section
+* song consists of parts, where every part is delimeted with `[<name>]` and its content is indented with 4 spaces
+    * part content has chords and text
+    * chords are either after the part name (if text is easy) or above the text
+    * text should contain 2 or 3 spaces of there is a middle or big break in the singing
+    * word in the text should contain `-` if it is important to emphesise/prolong the syllable after the symbol
+    * `[3x]` and similar signify that something should be repeated
+    * if something is unknown, then `?` may be used in place of chords
+    * if something may be incorrect, then `<something>?` may be used to signify that it should be checked
+* if part name contains `[repeat <name>]` then it refers to a part with `<name>` that was played already
+* if part name repeats but has different contents, then they should be numbered, e.g., `[Verse 1]` and `[Verse 2]`.
+* `[Fingerstyle]` section contains more precise instructions on how to play the song
+    * parts of this section copy the parts in the song, but some may be missing
+
+Song may be in the following states:
+
 * Tabs are in the respective language directory of the repository (english songs in *english* directory)
 * Incomplete tabs are in the *incomplete* directory
 * Complete melodies / solos (without rest of the song) are in the *melodies* directory
-
 
 ## Symbols
 
@@ -113,11 +139,3 @@ List of songs which are to be added.
 * Waldemar Matuška - Jó, třešně zrály
 * https://www.youtube.com/watch?v=984m-So__WM
 * Black Dog tab by Led Zeppelin
-
-
-## Running the site
-
-```
-source "https://rubygems.org"
-bundle exec jekyll serve
-```
