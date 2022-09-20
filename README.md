@@ -1,5 +1,5 @@
 This reposiroty contains raw [ASCII-tab](https://en.wikipedia.org/wiki/ASCII_tab).
-There is also a repository with [preprocessed data (html for offline use)](https://github.com/vaclavblazej/tabs-web) and its [online image](https://vaclavblazej.github.io/tabs-web/).
+There also is a repository with [preprocessed data (html for offline use)](https://github.com/vaclavblazej/tabs-web) and the processed [website with songs](https://vaclavblazej.github.io/tabs-web/).
 
 *To report problems please open a [new issue](https://github.com/vaclavblazej/tabs/issues/new). I welcome pull requests with new songs (see requirement below).*
 
@@ -102,40 +102,3 @@ E|*--*-----5-----*-----*--1-----*-----*--4-----5-|
 * dim - tercie-1, kvinta-1
 * 7 - ++septima
 * 7maj - ++septima+1
-
-## Todos
-
-List of songs which are to be added.
-
-* Ach synku, synku
-* Baba O'Riley - Teenage Wasteland
-* Bláznova ukolébavka
-* Chinaski - Vrchlabí
-* Dajána
-* Divokej Bill - Čmelák
-* Divokej Bill - Malování
-* Fool's Garden - Lemon Tree
-* Jakub Smolík - Zahrada ticha
-* Jaromír Mayer - Malý přítel z města N
-* Kabát - Kdoví jestli
-* Karel Gott - Když milenky pláčou
-* Karel Zich - Alenka v říši divů
-* Karel Zich - Máš chuť majoránky
-* Karel Zich - Přiznávám
-* Karel Zich - Vejdi
-* Katapult - Hlupák váhá
-* Lilly Wood & The Prick - Prayer in C 
-* Marta Kubišová - Modlitba
-* Michal Tučný - Blízko Little Big Hornu
-* Miki Ryvola - Bedna vod whisky
-* Nirvana - Smells like Teen Spirit
-* Nirvana - The Man Who Sold The World (MTV Unplugged)
-* One Jump
-* Olympic - Dej mi víc své lásky
-* Paper Lace - The Night Chicago Died
-* RHCP - Snow
-* SOAD - Aerials
-* SOAD - Chop Suey
-* Waldemar Matuška - Jó, třešně zrály
-* https://www.youtube.com/watch?v=984m-So__WM
-* Black Dog tab by Led Zeppelin
