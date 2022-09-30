@@ -4,10 +4,10 @@ capo: 3
 
 
 [Melody]
-    Am G F E7 Am
+    Am G F E7.Am
     lalalala lalala
 
-[Verse] (short)
+[Verse 1] (short)
     Am
     Potkal jsem jednu holku na diskošce
     G
@@ -22,10 +22,10 @@ capo: 3
     ona mě chytla svojí vlhkou dlaní
     ať prej se neptám a jdu rychle za ní
 
-[Melody]
+[Melody] Am G F E7.Am
     lalala
 
-[Verse]
+[Verse 2] Am G F E7
     spousta očí se teď na nás dívá
     hlavou se mi hodí deskriptiva
     asi se mě venku v tichu zeptá
@@ -38,13 +38,12 @@ capo: 3
     ou
 
 [Chorus]
-    Am          Dm          G
+    Am.         Dm.         G.
     Potkal jsem holku na discu
-            C           F
+            C.          F.
     obličej měla na missku
-            Dm6/H        E7
+            Dm6/H.       E7
     postavu jako z playboye
-                  E7        Am
     zatáhla mě do svýho pokoje
 
     chtěl jsem jí pomoct s úkoly
@@ -52,9 +51,10 @@ capo: 3
     co bude dál teď mám strach
     tohle jsme nebrali na přednáškách
 
+[Melody] Am G F E7.Am
     lalala
 
-[Verse]
+[Verse 3] Am G F E7
     svůdně tančila do samby rytmů
     zejtra ráno píšem z algoritmů
     řekla že prej má teď volnej bejvák
@@ -65,9 +65,10 @@ capo: 3
     a vyrazil nadzvukovou rychlostí
     jako vždy lačný nových vědomostí
 
+[Melody] Am G F E7.Am
     lalala
 
-[Verse] (short)
+[Verse] Am' G' F' E7' Am G F E7
     když jsme pak dorazili až k ní domu
     nemoh jsem na mou duši věřit tomu
     když místo důkazu gaussova vzorce
@@ -81,8 +82,9 @@ capo: 3
 
 [repeat Chorus]
 
-    Am Dm G C F Dm6/H E7 E7
+[Melody] Am Dm G C F Dm6/H E7 E7
 
+[Bridge] Am Dm G C F Dm6/H E7 E7 [2x]
     pak jsme nešli spát až do samýho rána
     žádná stránka bloku nezůstala nepopsána
     jal jsem se newtona číst učil jí pí na sto míst
@@ -103,4 +105,3 @@ Dm6/H
 |-0--|
 |-2--|
 |----|
-
