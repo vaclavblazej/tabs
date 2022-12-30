@@ -1,44 +1,57 @@
-video: https://www.youtube.com/watch?v=vp7WNjlmMTs
-tuning: -1
+source: https://pisnicky-akordy.cz/karel-kryl/morituri-te-salutant
+audio: tuning -1 https://www.youtube.com/watch?v=nrM_tMSctlg
+video live: https://www.youtube.com/watch?v=vp7WNjlmMTs
 note: G and H are played on 3th and 7th fret
 
 
-[Intro] Emi D Emi D
+[Intro] Em D Em D
 
-[Verse]       Emi     D     Ami       Emi
+[Verse 1]
+             Em      D       Am      Em
     Cesta je prach a štěrk a udusaná hlína
-    G        Ami    D7          G
-    a šedé šmouhy kreslí do vlasů
-                       Ami     D        G           H
+    G       Am     D7           G
+     a šedé šmouhy kreslí do vlasů
+                     Am      D         G          H
     [: a z hvězdných drah má šperk, co kamením se spíná,
-       Emi      D                  Emi  D Emi D(-)
+      Em       D       D          Em      D Em D
        a pírka touhy z křídel Pegasů. :]
-[Verse]
+
+[Verse 2]
+             Em      D       Am       Em
     Cesta je bič, je zlá jak pouliční dáma,
-    má v ruce štítky, v pase staniol,
+    G          Am        D7        G
+     má v ruce štítky, v pase staniol,
+               Am       D         G          H
     [: a z očí chtíč jí plá, když háže do neznáma
+      Em          D      D           Em      D Em Em
        dvě křehké snítky rudých gladiol. :]
 
-[Chorus]       D
-    Seržante, písek je bílý jak paže Daniely,
-     Emi
-    počkejte chvíli! Mé oči uviděly
-     D                D7
-    tu strašně dávnou vteřinu zapomnění,
-     Emi              D
-    seržante! Mávnou, a budem zasvěceni!
-     Emi                              D     Emi  D Emi H7(-)
-    Morituri te salutant, morituri te salutant!
+[Chorus]
+              D             D
+    Seržante, písek je bílý  jak paže Daniely,
+    Em                Em
+     počkejte chvíli!  Mé oči uviděly
+    D                  D7
+     tu strašně dávnou  vteřinu zapomnění,
+    Em                D
+     seržante! Mávnou,  a budem zasvěceni!
+    Em                    Em.         D.    Em.  D. Em H7'
+     Morituri te salutant, morituri te salutant!
 
-[Verse]
+[Verse 3]  Em D Am Em G Am D7 G
     Tou cestou dál jsem šel, kde na zemi se zmítá
     a písek víří křídlo holubí,
+
+        Am D G H Em D D Em
     [: a marš mi hrál zvuk děl, co uklidnění skýtá
-       a zvedá chmýří, které zahubí. :]
-[Verse]
+       a zvedá chmýří, které zahubí. :]  D Em D
+
+[Verse 4]  Em D Am Em G Am D7 G
     Cesta je tér a prach a udusaná hlína,
     mosazná včelka od vlkodlaka,
+
+        Am D G H Em D D Em
     [: rezavý kvér - můj brach a sto let stará špína
-       a děsně velká bílá oblaka. :]
+       a děsně velká bílá oblaka. :]  D Em Em
 
 [repeat Chorus]
