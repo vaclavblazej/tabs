@@ -2,9 +2,6 @@ TODO -> MORE -> CHCK -> DONE
 
 Aes vs Ab
 
-Balada pro banditu - Zabili, zabili.tab - zde si nejsem jist akordy v refrénu
-Buty - Jednou Ráno.tab - nevim, jestli jsou akordy dobře
-Divokej Bill - Pocit.tab - doladit
 Ivan Hlas - Jednou mi fotr povídá.tab
 Kabát - Corrida.tab
 Kabát - Šaman.tab
@@ -14,8 +11,6 @@ Mig 21 - Chci ti říct.tab
 Nightwork - Čekám Na Signál.tab
 Pokáč - Rád chodím na poštu.tab
 
-TODO - Spirituál Kvintet - Starý příběh.tab
-TODO - Spirituál Kvintet - Tisíc mil.tab
 TODO - Spirituál Kvintet - Trh ve Scarborough.tab
 TODO - Spirituál Kvintet - Válka růží.tab
 TODO - Spirituál Kvintet - Za svou pravdou stát.tab
@@ -33,7 +28,6 @@ TODO - Waldemar Matuška - Jó, třešně zrály.tab
 TODO - Waldemar Matuška - Růže z Texasu.tab
 TODO - Waldemar Matuška - Sbohem lásko.tab
 TODO - Waldemar Matuška - Slavíci z Madridu.tab
-TODO - Waldemar Matuška - Tisíc mil.tab
 TODO - Wohnout - Svaz českých bohémů.tab
 TODO - Xindl X - Na vodě.tab
 TODO - Zdeněk Svěrák, Jaroslav Uhlíř - Není nutno.tab
