@@ -1,0 +1,104 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[margin=5mm]{geometry} % setup small page margins
+\usepackage[czech]{babel} % add support for czech symbols
+\usepackage[utf8]{inputenc} % input files are UTF-8 encoded
+\usepackage[T1]{fontenc} % output font is encoded using T1
+\usepackage{multicol} % allow multicols command for 2-column pages
+\usepackage{hyperref} % make references clickable
+\usepackage{listings} % lstlisting command to show tabs
+
+% input enconding in UTF-8 may contain many symbols unknown to lstlisting
+% what follows is a mapping of UTF-8 to LaTeX code
+\lstset{literate=%
+{á}{{\'a}}1
+{é}{{\'e}}1
+{í}{{\'i}}1
+{ó}{{\'o}}1
+{ú}{{\'u}}1
+{ů}{{\r u}}1
+{ý}{{\'y}}1
+{ž}{{\v z}}1
+{š}{{\v s}}1
+{č}{{\v c}}1
+{ř}{{\v r}}1
+{ě}{{\v e}}1
+{ď}{{\v d}}1
+{ť}{{\v t}}1
+{ň}{{\v n}}1
+{Á}{{\'A}}1
+{É}{{\'E}}1
+{Í}{{\'I}}1
+{Ó}{{\'O}}1
+{Ú}{{\'U}}1
+{Ů}{{\r U}}1
+{Ý}{{\'Y}}1
+{Ž}{{\v Z}}1
+{Š}{{\v S}}1
+{Č}{{\v C}}1
+{Ř}{{\v R}}1
+{Ě}{{\v E}}1
+{Ď}{{\v D}}1
+{Ť}{{\v T}}1
+{Ň}{{\v N}}1
+{â}{{\^a}}1
+{’}{{'}}1
+{-}{{-}}1
+{“}{{`}}1
+{”}{{'}}1
+{´}{{'}}1
+{ }{{ }}1
+{—}{{--}}1
+{–}{{--}}1
+{...}{{\dots}}1
+}
+
+\lstset{%
+    numberstyle=\phantom,%hidden
+    includerangemarker=false,
+    % inputencoding=UTF-8,
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=true,
+    keepspaces=true,
+    showspaces=false,
+    columns=fullflexible,
+    frame=single,
+    numbers=left,
+    stepnumber=1,
+    breaklines=true,
+    tabsize=4
+}
+
+\begin{document}
+
+\begin{multicols}{2}
+    \subsection*{Kytarový zpěvník}
+    \hrule\bigskip
+    V ruce držíš \textit{první vydání (\today)} kompilace klasických a moderních písní s kytarovými akordy k ohni či do hospody.
+    Písně jsou zaznamenány standardním způsobem 
+    s těmito zásadními úpravami:
+    \begin{itemize}
+        \setlength\itemsep{-1mm}
+        \item Text je psán ve větách, včetně čárek a teček.
+        \item Mezery ve zpívání mají větší mezeru v textu.
+        \item Důraz na slabice předchází pomlčka (\texttt{-}).
+        \item Opakování stejného akordu je vždy vyznačeno opakovaným znakem.
+        \item Hraní akordu celou dobu značíme jen názvem (\texttt{C}).
+        \item Akord hraný kratší dobu u sebe má navíc znak \texttt{C,} je $\frac 34$ doby; \texttt{C.} je $\frac 12$ doby; \texttt{C'} je $\frac 14$ doby nebo pouze jednou zahraný akord.
+    \end{itemize}
+
+    Další informace a zdojové kódy lze najít na stránce \texttt{https://github.com/vaclavblazej/tabs}
+
+    \subsection*{Jak byl zpěvník vytvořen}
+    Po několik let byly střádány přejaté písně z internetu kam jsem zavedl opravy.
+    Seznam písní je přejat z veřejného repozitáře, kde jsou písně uchovávány v surovém stavu.
+    Potom jsou zpracovány programem a automaticky je vytvořen seznam podle názvů a interpretů.
+    Zdrojové kódu všech programů, které se na tomto procesu podílí je zveřejněn na Github.
+\end{multicols}
+\newpage
+
+%%% LIST %%%
+
+%%% CONTENT %%%
+
+\end{document}
