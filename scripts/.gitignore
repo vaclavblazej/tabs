@@ -1,1 +1,9 @@
 *.swp
+tabs-web/
+latex/main.aux
+latex/main.fdb_latexmk
+latex/main.fls
+latex/main.log
+latex/main.out
+latex/main.tex
+latex/main.tex.tmp

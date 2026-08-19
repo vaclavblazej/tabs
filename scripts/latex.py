@@ -27,7 +27,7 @@ song_content = dict()
 song_id = 0
 interpret_list = []
 song_list = []
-for root, dirs, files in os.walk('tabs/czech-slovak'):
+for root, dirs, files in os.walk('../songs/czech'):
     for name in files:
         if name.endswith('.tab'):
             song_id += 1
